@@ -58,7 +58,7 @@ const App = () => {
 
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="px-4 py-2 rounded-lg font-semibold bg-pink-500 text-white hover:scale-105 transition"
+          className="px-4 py-2 rounded-lg font-semibold bg-pink-600 text-white hover:scale-105 transition"
         >
           {darkMode ? "☀ Light" : "🌙 Dark"}
         </button>
